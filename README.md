@@ -7,14 +7,25 @@
 
 ## Instructions
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+Udacity Project Rubric [rubric](https://review.udacity.com/#!/rubrics/15/view).
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+## How to Run 
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+- Download project locally
+- Open HTML file in browser of prefernce (i.e. Google Chrome)
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+
+## How to Play 
+Game description: Player's (The boy) objective is to reach the water without collision with any bug. To play the arcade game:
+- Use keyboard's arrow keys to move one square at a time up, down, right or left.
+- Score is set to 0 and it increases by one as the player reaches the water.
+- Difficulty is set to 1 and it increase by one as the player reaches the water.
+- If collision
+    - Player's position is set to original position (middle lower grass area)
+    - Score and Difficulty are set to original values. 
+
+No maximmum score or difficulty is set. you can try to reach as high score and difficulty as you can :D
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This repository is the starter code for _all_ Udacity students as part of the project. Base coding is Udacity contribution. I have add coding as requirenments for project in Rubric to be evaluated and submitted. 
